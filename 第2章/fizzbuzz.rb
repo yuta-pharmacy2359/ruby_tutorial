@@ -1,4 +1,4 @@
-# 2_7_3
+# fizzbuzz
 
 def fizz_buzz(n)
   if n % 15 == 0
@@ -12,7 +12,6 @@ def fizz_buzz(n)
   end
 end
 
-puts fizz_buzz(2)
-puts fizz_buzz(6)
-puts fizz_buzz(10)
-puts fizz_buzz(30)
+for i in 1..100 do
+  puts fizz_buzz(i)
+end
