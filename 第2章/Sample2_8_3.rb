@@ -44,3 +44,22 @@ b = <<'TEXT'
 以下のメッセージをご覧ください。
 TEXT
 puts b
+
+c = <<"TEXT"
+ようこそ、#{name}さん、
+以下のメッセージをご覧ください。
+TEXT
+puts c
+
+d = 'Ruby'
+d.prepend(<<TEXT)
+Java
+Python
+TEXT
+puts d
+
+e = <<TEXT.upcase
+Hello,
+Good-bye.
+TEXT
+puts e
