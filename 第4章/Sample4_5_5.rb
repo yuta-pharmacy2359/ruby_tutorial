@@ -13,5 +13,3 @@ numbers = []
 (1..20).step(3) { |n| numbers << n }
 p numbers
 #[1, 4, 7, 10, 13, 16, 19]
-
-git commit -m "Ruby入門 第4-5章終了"
