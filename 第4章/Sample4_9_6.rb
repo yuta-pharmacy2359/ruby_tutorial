@@ -54,4 +54,3 @@ p 1.upto(9).class
 
 p Enumerator.include?(Enumerable)
 # true
-git commit -m "Ruby入門 第4-9章終了"
