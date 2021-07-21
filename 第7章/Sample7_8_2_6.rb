@@ -6,5 +6,3 @@ end
 Product::SOME_KINDS[2].upcase!
 # Sample7_8_2_6.rb:5:in `upcase!': can't modify frozen String (FrozenError)
 =end
-
-git commit -m "Ruby入門 第7-8章終了"
